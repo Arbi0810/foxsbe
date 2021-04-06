@@ -1,0 +1,180 @@
+main {
+  margin-bottom: 150px; }
+
+footer.site-footer .grid__item {
+  padding: 0 32px; }
+
+/*================ SEARCH BAR ================*/
+form.input-group {
+  padding: 0; }
+
+form.input-group.search-bar div.search-bar-item {
+  float: left; }
+
+form.input-group.search-bar input[type='search'] {
+  background: #ffffff;
+  border: solid 1px #888888;
+  margin-top: 8px;
+  font-size: 12px;
+  height: 30px;
+  width: 200px; }
+
+form.input-group.search-bar button {
+  background: #ffffff;
+  color: #1c1d1d; }
+
+ul.search-nav {
+  margin: 0; }
+
+/*
+  .site-header form.input-group.search-bar input[type='search'] {
+    width: 100% !important;
+  }
+*/
+/*================ HEADER UPDATES ================*/
+.wrapper {
+  max-width: 1600px; }
+
+.wrapper.content-wrapper {
+  margin-top: 194px; }
+
+#main-nav {
+  background-color: #133a7f; }
+
+.site-nav__link {
+  font-weight: bold; }
+
+#main-nav .site-nav__link {
+  color: #ffffff; }
+
+.site-nav__link a:hover {
+  color: #ffffff;
+  text-decoration: underline; }
+
+.site-nav--has-dropdown:hover > a {
+  color: #ffffff;
+  text-decoration: underline;
+  background-color: inherit; }
+
+.header-text {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .1em; }
+
+.site-header__logo img {
+  max-width: 130px; }
+
+.site-header .grid--table {
+  height: 92px; }
+
+/*================ SLIDESHOW UPDATES ================*/
+.hero .hero__slide {
+  /*
+  .hero__text-wrap {
+    text-align: left;
+  }
+  */ }
+  .hero .hero__slide .hero__cta {
+    font-weight: bold; }
+  .hero .hero__slide.is-light {
+    color: #ffffff;
+    /* background-color: #000; */ }
+    .hero .hero__slide.is-light .hero__cta {
+      color: #000000;
+      background-color: #ffffff; }
+    @media all and (max-width: 768px) {
+      .hero .hero__slide.is-light {
+        color: #000000 !important; }
+        .hero .hero__slide.is-light .hero__cta {
+          border: 2px solid #000000; } }
+  .hero .hero__slide.is-dark {
+    color: #000;
+    background-color: #ffffff;
+    /*
+    .hero__cta {
+      color: #000;
+      background-color: transparent;
+      border: 2px solid #000 ;
+    }
+    */ }
+  .hero .hero__slide .hero__title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-size: 90px;
+    font-weight: lighter;
+    line-height: 1; }
+  .hero .hero__slide .hero__title i {
+    font-size: 81px; }
+  .hero .hero__slide .hero__subtitle {
+    font-family: "La Belle Aurore","Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: -.025em; }
+  .hero .hero__slide .hero__cta {
+    font-size: 18px; }
+
+/*================ PROMO 2 ENHANCED colors ================*/
+.promo-2-enhanced .hero__slide .hero__cta {
+  font-weight: bold; }
+.promo-2-enhanced .hero__slide .is-light {
+  color: #ffffff;
+  background-color: transparent; }
+  .promo-2-enhanced .hero__slide .is-light.hero__cta {
+    color: #000000;
+    background-color: #ffffff; }
+.promo-2-enhanced .hero__slide .is-dark {
+  color: #000;
+  background-color: transparent; }
+  .promo-2-enhanced .hero__slide .is-dark.hero__cta {
+    color: #000;
+    background-color: transparent;
+    border: 2px solid black; }
+.promo-2-enhanced .hero__slide .is-red {
+  color: #fa4c47;
+  background-color: transparent; }
+  .promo-2-enhanced .hero__slide .is-red.hero__cta {
+    color: #fa4c47;
+    background-color: transparent;
+    border: 2px solid #fa4c47; }
+.promo-2-enhanced .hero__slide .hero__title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1; }
+.promo-2-enhanced .hero__slide .hero__subtitle {
+  font-family: "La Belle Aurore","Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 28px;
+  letter-spacing: -.025em; }
+.promo-2-enhanced .hero__slide .hero__cta {
+  font-size: 18px; }
+
+/*================ PROMO 3 Redesign  ================*/
+.promo-spots-3-enhanced .title, .featured-collections .title {
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1; }
+.promo-spots-3-enhanced .subtitle, .featured-collections .subtitle {
+  font-family: "La Belle Aurore","Montserrat","HelveticaNeue","Helvetica Neue",sans-serif;
+  text-transform: lowercase;
+  font-weight: normal;
+  font-size: 28px;
+  letter-spacing: -.025em; }
+
+/*================ Featured Collections Redesign  ================*/
+.featured-collections .btn {
+  font-size: 18px;
+  color: #000;
+  background-color: transparent;
+  border: 2px solid black;
+  font-weight: bold; }
+
+@media all and (max-width: 768px) {
+  .featured-collections .btn {
+    font-size: 13px; } }
